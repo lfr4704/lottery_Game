@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title> Lottery vs. Reality </title>
+  <meta name="description" content="Powerball spending tool">
+  <meta name="author" content="Jade Manrique">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="img/powerball.png">
+  <link rel="stylesheet" href="css/reset.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+  <div class="container center">
+    <img src="img/lotvsreal.png" width="400px" alt="lottery vs reality" />
+  <!--  <h1> <span class="lottery">Lottery</span> <span class="reality">vs Reality</span> </h1> -->
+  </div>
+
+<!-- Summary of the Lottery -->
+  <div class="container">
+
+    <!-- inline images -->
+
+    <div class="imageBox">
+        <img src="img/placeholder.png" width="220px" alt="placeholder" />
+
+        <img src="img/placeholder.png" width="220px" alt="placeholder" />
+
+        <img src="img/placeholder.png" width="220px" alt="placeholder" />
+    </div>
+
+    <p class="lottery"> SUMMARY OF LOTTERY </p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+  </div>
+
+<!-- User Input Fields -->
+  <div class="container inline size-a ">
+    <ul>
+      <li><label> Winning Numbers </label><input id="currentNum" type="text" placeholder="Winning Numbers" /></li>
+      <li><label> Name </label><input id="name" type="text" value="Anonymous" placeholder="Name" /></li>
+      <li><label> $ </label><input id="money" type="number" placeholder="Wager" onchange="limiter(this)" /></li>
+    </ul>
+    <button class="submit"> Play </button>
+  </div>
+
+  <div class="container inline size-a">
+    <p class="lottery"> INSTRUCTIONS </p>
+    <ol>
+      <li> 1. Insert the current winning lottery numbers. </li>
+      <li> 2. Type your name if you would like to appear on the leaderboard. </li>
+      <li> 3. Type in the amount of money you want to test. </li>
+      <li> 4. ??? </li>
+      <li> 5. PROFIT </li>
+    </ol>
+  </div>
+
+<!-- list of results from the game -->
+  <div class="container">
+    <p class="lottery"> RESULTS </p>
+    <p> Returned values of the inputs above. </p>
+  </div>
+
+<!-- DID I WIN? NO! -->
+  <div class="container">
+    <p class="lottery"> DID YOU WIN? </p>
+    <p> Most likely not. </p>
+  </div>
+
+<!-- "Leaderboard" -->
+  <div class="container">
+    <p class="lottery"> LEADERBOARD </p>
+    <p> Data log of past players and their wins, losses, money spent. </p>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Black+Han+Sans|PT+Sans+Narrow|Shrikhand');
+
+/* Global */
+body {
+  background-image: url(../img/texture.png);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Helvetica', monospace;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul li {
+  float: right;
+}
+
+p {
+  margin: 15px;
+  width: 75%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+label {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ol li {
+  margin: 15px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.size-a {
+  width: 300px;
+}
+
+/* fonts */
+.lottery {
+  font-family: 'Shrikhand', sans-serif;
+}
+
+.reality {
+  font-family: 'Amatic SC', sans-serif;
+}
+
+/* image box */
+.imageBox {
+  text-align: center;
+}
+
+.imageBox img {
+  margin: 5px;
+  display: inline-block;
+}
+
+/* misc. */
+.center {
+  text-align: center;
+}
+
+.container {
+  margin: 50px;
+  padding: 10px;
+  border: 2px red solid;
+}
+
+/* ==============================================================*/
+
+@media screen and (max-width: 920px) {
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+}
